@@ -7,23 +7,33 @@ body, html {
     overflow-x: hidden;
 }
 
-.container {
-    perspective: 1200px;
-}
-
-.name-intro {
+.full-name {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 4em;
-    text-align: center;
-    margin-top: 20vh;
-    opacity: 0;
-    transform: translateY(-30px);
-    transition: opacity 1s, transform 1s;
+    background-color: #333;
+    cursor: pointer;
 }
 
-.section {
-    font-size: 2em;
-    margin: 50px 0;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 1s, transform 1s;
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    background-color: #444;
+}
+
+.intro {
+    width: 50%;
+}
+
+.photo {
+    width: 40%;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
