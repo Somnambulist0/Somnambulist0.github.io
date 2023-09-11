@@ -16,6 +16,8 @@ function typeText() {
 
 typeText();
 
+typeText();
+
 function switchSection(direction) {
     let now = new Date().getTime();
     if (now - lastScrollTime < 300) {  // If less than 300ms since the last scroll, exit
@@ -32,7 +34,7 @@ function switchSection(direction) {
     sections[currentSection].style.display = 'flex';  // Show the new current section
 }
 
-document.addEventListener('wheel', function(event) {
+/*document.addEventListener('wheel', function(event) {
     if (event.deltaY > 0) {
         switchSection('down');
     } else {
@@ -59,17 +61,18 @@ document.addEventListener('touchend', function(event) {
     } else if (touchEndY < touchStartY) {
         switchSection('down');
     }
-});
+});*/
+
 
 document.getElementById('know-more').addEventListener('click', function() {
     switchSection('down');
 });
 
-document.getElementById('contact-me').addEventListener('click', function() {
+//document.getElementById('contact-me').addEventListener('click', function() {
     // Since "Just contact me" should lead to the third page, we'll switch twice.
-    switchSection('down');
-    switchSection('down');
-});
+    //switchSection('down');
+    //switchSection('down');
+//});
 
 let nextButtons = document.querySelectorAll('.next-btn');
 
@@ -83,10 +86,8 @@ let backButtons = document.querySelectorAll('.back-btn');
 
 backButtons.forEach(button => {
     button.addEventListener('click', function() {
-        sections[currentSection].style.opacity = 0;
+        sections[currentSection].style.display = 'none';  // Hide the current section
         currentSection = 0;
-        sections[currentSection].style.opacity = 1;
+        sections[currentSection].style.display = 'flex';  // Show the home section
     });
 });
-
-
