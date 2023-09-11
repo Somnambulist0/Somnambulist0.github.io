@@ -1,44 +1,27 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const introCard = document.getElementById('introCard');
-    const typingText = document.getElementById('typingText');
-    const cursor = document.getElementById('cursor');
-    const message = [
-        'Hi~ I am Jingcheng Ni,',
-        'a Computer Science student at Dukekunshan University'
-    ];
-    let line = 0;
-    let index = 0;
-    let typingInterval;
+let sections = document.querySelectorAll('.section');
+let currentSection = 0;
+let text = 'Hi~ I am Jingcheng Ni, a student at Dukekunshan University.';
+let typedText = document.getElementById('typed-text');
+let index = 0;
 
-    // 开始打字
-    function startTyping() {
-        typingInterval = setInterval(function () {
-            typingText.textContent += message[line][index];
-            index++;
-            if (index >= message[line].length) {
-                index = 0;
-                line++;
-                clearInterval(typingInterval);
-                if (line < message.length) {
-                    typingText.textContent += '\n';
-                    startTyping();
-                } else {
-                    cursor.style.animation = 'none';
-                    cursor.textContent = '█';  // Static cursor when typing is done
-                }
-            }
-        }, 100);  // 每个字母打印的时间间隔
+function typeText() {
+    if (index < text.length) {
+        typedText.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, 100);
     }
+}
 
-    startTyping();
+typeText();
 
-    introCard.addEventListener('click', function () {
-        anime({
-            targets: introCard,
-            translateY: '-150%',
-            easing: 'easeInOutQuart',
-            duration: 1000
-        });
-    });
+document.addEventListener('wheel', function(event) {
+    if (event.deltaY > 0 && currentSection < sections.length - 1) {
+        sections[currentSection].style.opacity = 0;
+        currentSection++;
+        sections[currentSection].style.opacity = 1;
+    } else if (event.deltaY < 0 && currentSection > 0) {
+        sections[currentSection].style.opacity = 0;
+        currentSection--;
+        sections[currentSection].style.opacity = 1;
+    }
 });
-

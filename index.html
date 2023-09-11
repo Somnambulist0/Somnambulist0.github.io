@@ -1,28 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jingcheng Ni</title>
+    <title>Jingcheng Ni's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-    <script src="script.js" defer></script>
 </head>
-
 <body>
-    <div class="intro-card" id="introCard">
-        <div class="typing-text" id="typingText"></div>
-        <div class="cursor" id="cursor">|</div>
+    <div class="section" id="home">
+        <div class="mac-window">
+            <div class="mac-header">
+                <div class="mac-buttons">
+                    <span class="mac-close"></span>
+                    <span class="mac-minimize"></span>
+                    <span class="mac-expand"></span>
+                </div>
+            </div>
+            <div class="content">
+                <p id="typed-text"></p>
+                <span class="cursor"></span>
+            </div>
+        </div>
     </div>
-
-    <div class="profile-section">
-        <!-- ... 其他内容 ... -->
+    <div class="section" id="introduction">
+        <img src="https://via.placeholder.com/150" alt="Your Image">
+        <p>Jingcheng Ni, a passionate student from Dukekunshan University. With a keen interest in technology and research, I am always eager to learn and grow.</p>
     </div>
+    <div class="section" id="research">
+        <textarea placeholder="List your research experiences here..."></textarea>
+        <div class="publish">
+            <img src="https://via.placeholder.com/150" alt="Research Image">
+            <a href="#">Link to your research</a>
+        </div>
+    </div>
+    <div class="section" id="hobbies">
+        <p>I enjoy coding, reading tech blogs, and exploring new technologies. In my free time, I love to play video games and travel to new places.</p>
+    </div>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
-
 
 
 
