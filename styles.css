@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: white;
+    overflow-x: hidden;
+}
+
+.container {
+    perspective: 1200px;
+}
+
+.name-intro {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20vh;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 1s, transform 1s;
+}
+
+.section {
+    font-size: 2em;
+    margin: 50px 0;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s, transform 1s;
+}
