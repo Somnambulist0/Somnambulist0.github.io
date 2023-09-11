@@ -1,10 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const fullNameDiv = document.querySelector('.full-name');
+    const introCard = document.querySelector('.intro-card');
+    const profileSection = document.querySelector('.profile-section');
 
-    fullNameDiv.addEventListener('click', function () {
-        window.scrollTo({
-            top: window.innerHeight,
-            behavior: 'smooth'
+    introCard.addEventListener('click', function () {
+        anime({
+            targets: introCard,
+            translateY: '-150%',
+            easing: 'easeInOutQuart',
+            duration: 1000,
+            complete: function () {
+                anime({
+                    targets: profileSection,
+                    left: '0%',
+                    easing: 'easeInOutQuart',
+                    duration: 1000
+                });
+                document.body.style.backgroundColor = '#444';
+            }
         });
     });
 });
+
