@@ -17,13 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Jingcheng Ni. A senior student at Duke Kunshan Univeristy, 
+I am a senior undergraduate student majoring in Applied Mathematics and Computational Science at Duke Kunshan University (2021 - 2025). 
+I have the privilege of being advised by [Prof. Kaizhu Huang](https://sites.google.com/view/kaizhu-huang-homepage). 
 
-My research interest includes neural machine translation and computer vision. 
+Previously, I spent an enriching summer at [Yale Vision Lab](https://vision.cs.yale.edu/) under the guidance of [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
+
+My research interests primarily focus on 3D Vision, encompassing Reconstruction, Perception, and Generation.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by Prof. Alex Wong.
+- *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by Prof. Maria Gorlatova.
+- *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate.
 
 
 # 📖 Educations
