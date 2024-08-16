@@ -17,16 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a senior undergraduate student majoring in Applied Mathematics and Computational Science at Duke Kunshan University (2021 - 2025). 
+I am a senior undergraduate student in Applied Mathematics and Computational Science at Duke Kunshan University (2021 - 2025). 
 I have the privilege of being advised by [Prof. Kaizhu Huang](https://sites.google.com/view/kaizhu-huang-homepage). 
 
 Previously, I spent an enriching summer at [Yale Vision Lab](https://vision.cs.yale.edu/) under the guidance of [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
-
+During the fall term of 2023, I had a wonderful time at Duke University, where I worked as a research assistant in the [Duke University I3T Lab](https://maria.gorlatova.com/), 
+advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 My research interests primarily focus on 3D Vision, encompassing Reconstruction, Perception, and Generation.
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by Prof. Alex Wong.
-- *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by Prof. Maria Gorlatova.
+- *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 - *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate.
 
 
