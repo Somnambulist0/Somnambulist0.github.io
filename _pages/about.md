@@ -31,6 +31,15 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 - *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 - *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate.
 
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/intro.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Interactive Multi-View Multi-Object Removal]()
+
+</div>
+</div>
 
 # 📖 Educations
 - *2021.08 - 2025.05*, BS in Applied Mathematics and Computational Sciences / Computer Science track, Duke Kunshan University. 
