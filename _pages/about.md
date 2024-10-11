@@ -29,7 +29,7 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
 - *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
-- *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate.
+- *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
 
 
 # 📖 Educations
