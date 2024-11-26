@@ -38,6 +38,7 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 [Efficient Interactive 3D Multi-Object Removal](https://jingchengni.com/) \
 ***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang* \
 Under Review
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/pdiff.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,7 +53,7 @@ Under Review
 
 
 
-# ✨ Interesting Projects
+# ✨Interesting Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/gulu.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
