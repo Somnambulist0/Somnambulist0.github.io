@@ -57,9 +57,10 @@ for Monocular Depth Estimation.](https://jingchengni.com/)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/gulu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Gulu-Verse](https://guluverse.com/) | [Code](https://github.com/Somnambulist0/GuLu-Verse)
 
 GuLu-Verse is a recommendation website designed to bring some meaning to life and make your life easier. This platform offers personalized suggestions (like films) based on user preferences and interactions.
+[Gulu-Verse](https://guluverse.com/)
+[Code](https://github.com/Somnambulist0/GuLu-Verse)
 </div>
 </div>
 
@@ -78,3 +79,6 @@ CS304 Speech Recognition Course Project
 - *2021.08 - 2025.05*, BS in Applied Mathematics and Computational Sciences / Computer Science track, Duke Kunshan University. 
 - *2023.08 - 2023.12*, Exchange Program, Duke University.
 - *2024.05 - 2024.08*, Visiting Student, Yale University.
+
+
+
