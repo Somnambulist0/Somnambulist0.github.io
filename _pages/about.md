@@ -32,25 +32,24 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 - *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/pipeline_00.png' alt="sym" width="80%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pipeline_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient Interactive 3D Multi-Object Removal](https://jingchengni.com/) \
+[Efficient Interactive 3D Multi-Object Removal](https://jingchengni.com/) 
+
 ***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang* \
-Under Review
+</div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/pdiff.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PriorDiffusion: Leverage Language Prior in Diffusion Models
 for Monocular Depth Estimation.](https://jingchengni.com/) \
 *Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* \
-Under Review
 </div>
-
-
-
+</div>
 
 
 # ✨Interesting Projects
