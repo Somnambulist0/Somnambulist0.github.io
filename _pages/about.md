@@ -42,7 +42,7 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PriorDiffusion: Leverage Language Prior in Diffusion Models
