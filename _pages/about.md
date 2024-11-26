@@ -46,11 +46,10 @@ Under Review
 for Monocular Depth Estimation.](https://jingchengni.com/) \
 *Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* \
 Under Review
-
-
-
 </div>
-</div>
+
+
+
 
 
 # ✨ Interesting Projects
@@ -67,7 +66,6 @@ GuLu-Verse is a recommendation website designed to bring some meaning to life an
 CS304 Speech Recognition Course Project
 
 
-</div>
 </div>
 
 # 📖 Educations
