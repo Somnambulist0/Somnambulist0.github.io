@@ -59,6 +59,7 @@ for Monocular Depth Estimation.](https://jingchengni.com/)
 
 
 [Gulu-Verse](https://guluverse.com/) is a recommendation website designed to bring some meaning to life and make your life easier. This platform offers personalized suggestions (like films) based on user preferences and interactions.
+
 [Code](https://github.com/Somnambulist0/GuLu-Verse)
 </div>
 </div>
