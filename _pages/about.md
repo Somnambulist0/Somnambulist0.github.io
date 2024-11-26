@@ -58,8 +58,7 @@ for Monocular Depth Estimation.](https://jingchengni.com/)
 <div class='paper-box-text' markdown="1">
 
 
-GuLu-Verse is a recommendation website designed to bring some meaning to life and make your life easier. This platform offers personalized suggestions (like films) based on user preferences and interactions.
-[Gulu-Verse](https://guluverse.com/)
+Gulu-Verse](https://guluverse.com/) is a recommendation website designed to bring some meaning to life and make your life easier. This platform offers personalized suggestions (like films) based on user preferences and interactions.
 [Code](https://github.com/Somnambulist0/GuLu-Verse)
 </div>
 </div>
@@ -67,7 +66,7 @@ GuLu-Verse is a recommendation website designed to bring some meaning to life an
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/speech.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Speech Recognition(Manual Implementation)](https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation)
+[Speech Recognition (Manual Implementation)](https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation)
 
 CS304 Speech Recognition Course Project
 
