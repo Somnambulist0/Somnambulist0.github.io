@@ -38,7 +38,7 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 
 [Efficient Interactive 3D Multi-Object Removal](https://jingchengni.com/) 
 
-***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang* \
+***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang*
 </div>
 </div>
 
@@ -46,26 +46,32 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 <div class='paper-box-text' markdown="1">
 
 [PriorDiffusion: Leverage Language Prior in Diffusion Models
-for Monocular Depth Estimation.](https://jingchengni.com/) \
-*Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* \
+for Monocular Depth Estimation.](https://jingchengni.com/) 
+
+*Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* 
 </div>
 </div>
 
 
 # ✨Interesting Projects
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/gulu.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/gulu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Gulu-Verse](https://guluverse.com/) | [Code](https://github.com/Somnambulist0/GuLu-Verse) \
+[Gulu-Verse](https://guluverse.com/) | [Code](https://github.com/Somnambulist0/GuLu-Verse)
+
 GuLu-Verse is a recommendation website designed to bring some meaning to life and make your life easier. This platform offers personalized suggestions (like films) based on user preferences and interactions.
+</div>
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/speech.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/speech.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Speech Recognition(Manual Implementation)](https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation) \
+[Speech Recognition(Manual Implementation)](https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation)
+
 CS304 Speech Recognition Course Project
 
 
+</div>
 </div>
 
 # 📖 Educations
