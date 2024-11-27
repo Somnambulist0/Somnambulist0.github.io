@@ -6,7 +6,7 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Projects"
+  - title: "Publications"
     url: "/#-publications"
 
   # - title: "Honors and Awards"
@@ -14,7 +14,7 @@ main:
 
   - title: "Interesting Projects"
     url: "/#-interesting-projects"
-    
+
   - title: "Educations"
     url: "/#-educations"
   # - title: "Internships"

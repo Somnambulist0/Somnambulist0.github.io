@@ -46,7 +46,7 @@ My research interests primarily focus on 3D Vision, encompassing Reconstruction,
 <div class='paper-box-text' markdown="1">
 
 [PriorDiffusion: Leverage Language Prior in Diffusion Models
-for Monocular Depth Estimation.](https://jingchengni.com/) 
+for Monocular Depth Estimation.](http://arxiv.org/abs/2411.16750) 
 
 *Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* 
 </div>
