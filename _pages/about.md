@@ -24,7 +24,7 @@ Previously, I spent an enriching summer at [Yale Vision Lab](https://vision.cs.y
 During the fall term of 2023, I had a wonderful time at Duke University, where I worked as a research assistant in the [Duke University I3T Lab](https://maria.gorlatova.com/), 
 advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 
-My research interests primarily focus on 3D Vision, encompassing Reconstruction, Perception, and Generation.
+***Research Interests***: I aim to investigate 3D reconstruction, perception, and generation, with an interest in leveraging multimodal inputs to assist in vision tasks. I am also passionate about designing efficient visual systems that can enable embodied agents to better understand and interact with the physical world while addressing real-world challenges.
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
