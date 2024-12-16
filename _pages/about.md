@@ -53,7 +53,7 @@ for Monocular Depth Estimation.](http://arxiv.org/abs/2411.16750)
 </div>
 
 
-# ✨Interesting Projects
+# ✨ Interesting Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='../images/gulu.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
