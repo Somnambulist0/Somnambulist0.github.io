@@ -36,7 +36,7 @@ advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pipeline_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient Interactive 3D Multi-Object Removal](https://jingchengni.com/) 
+[Efficient Interactive 3D Multi-Object Removal](https://arxiv.org/abs/2501.17636) 
 
 ***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang*
 </div>
