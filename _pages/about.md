@@ -28,7 +28,7 @@ advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Join Sony R&D Center China in Beijing as a research intern!
-- *2025.05*: &nbsp;🎉🎉 Graduation from Duke Kunshan University/Duke University with Distinction! Grateful to everyone who’s been by my side throughout the journey.
+- *2025.05*: &nbsp;🎉🎉 Graduation from Duke Kunshan University/Duke University with Distinction! Grateful to everyone who is been by my side throughout the journey!
 - *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
 - *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
 - *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
@@ -79,7 +79,7 @@ CS304 Speech Recognition Course Project
 
 # 📖 Educations
 - *2021.08 - 2025.05*, BS in Computer Science, Duke University. 
-- *2021.08 - 2025.05*, BS in Computer Science, Duke Kunshan University. Graduation with Distinction.
+- *2021.08 - 2025.05*, BS in Computer Science, Duke Kunshan University. *Graduation with Distinction*.
 - *2023.08 - 2023.12*, Exchange Program, Duke University.
 - *2024.05 - 2024.08*, Visiting Student, Yale University.
 
