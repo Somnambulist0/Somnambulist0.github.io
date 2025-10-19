@@ -20,6 +20,8 @@ I am a Master’s student in Computer Science at Brown University.
 
 Previously, I completed my undergraduate studies with distinction in Computer Science at Duke Kunshan University and Duke University (2021–2025), where I had the privilege of being advised by [Prof. Kaizhu Huang](https://sites.google.com/view/kaizhu-huang-homepage). 
 
+This past summer, I had the pleasure of working at Sony Research on 3D human generation.
+
 In the summer of 2024, I spent an enriching time at [Yale Vision Lab](https://vision.cs.yale.edu/) under the guidance of [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
 
 During the fall 2023 term, I had a wonderful experience at Duke University, where I worked as a research assistant [Duke University I3T Lab](https://maria.gorlatova.com/), under the supervision of [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
@@ -27,6 +29,7 @@ During the fall 2023 term, I had a wonderful experience at Duke University, wher
 ***Research Interests***: I aim to investigate 3D reconstruction, perception, and generation, with an interest in leveraging multimodal inputs to assist in vision tasks. I am also passionate about designing efficient visual systems that can enable embodied agents to better understand and interact with the physical world while addressing real-world challenges.
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 Join Brown University as a Master's Student in Computer Science with scholarship!
 - *2025.05*: &nbsp;🎉🎉 Join Sony R&D Center China in Beijing as a 3D Vision research intern!
 - *2025.05*: &nbsp;🎉🎉 Graduation from Duke Kunshan University/Duke University with Distinction! Grateful to everyone who has been by my side throughout the journey!
 - *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
