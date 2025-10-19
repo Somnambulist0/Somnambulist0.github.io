@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I am an incoming Master’s student in Computer Science at Brown University. 
+I am a Master’s student in Computer Science at Brown University. 
 
 Previously, I completed my undergraduate studies with distinction in Computer Science at Duke Kunshan University and Duke University (2021–2025), where I had the privilege of being advised by [Prof. Kaizhu Huang](https://sites.google.com/view/kaizhu-huang-homepage). 
 
