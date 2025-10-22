@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jingcheng Ni"
-description              : "Senior student in Applied Mathematics and Computational Science "
+description              : "Master Student in Computer Science"
 repository               : 
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingcheng Ni"
   avatar           : "images/person_3.jpg"
-  bio              : "Duke Kunshan University"
-  location         : "Durham, U.S./Suzhou, China"
+  bio              : "Brown University"
+  location         : "Providence, U.S."
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "jn189@duke,edu"
+  email            : "jingcheng_ni@brown.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : # e.g., "https://www.linkedin.com/in/jingcheng-ni/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
