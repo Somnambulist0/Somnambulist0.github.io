@@ -56,7 +56,7 @@ Ziyao Zeng*, **Jingcheng Ni***, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/coffee.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Coffee: Controllable Diffusion Fine-tuning](https://arxiv.org/abs/2511.14113) 
