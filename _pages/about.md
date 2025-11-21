@@ -37,13 +37,13 @@ During the fall 2023 term, I had a wonderful experience at Duke University, wher
 - *2021.08*: &nbsp; Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
 
 # 📝 Publications 
-*equal contribution
+†equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pipeline_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [HOMER: Homography-Based Efficient Multi-view 3D Object Removal](https://arxiv.org/abs/2501.17636) 
 
-**Jingcheng Ni***, Weiguang Zhao*, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang
+***Jingcheng Ni**†, Weiguang Zhao†, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang*
 </div>
 </div>
 
@@ -52,7 +52,7 @@ During the fall 2023 term, I had a wonderful experience at Duke University, wher
 
 [Iris: Integrating Language into Diffusion-based Monocular Depth Estimation](http://arxiv.org/abs/2411.16750) 
 
-Ziyao Zeng*, **Jingcheng Ni***, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong 
+*Ziyao Zeng†, **Jingcheng Ni**†, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* 
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Ziyao Zeng*, **Jingcheng Ni***, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu
 
 [Coffee: Controllable Diffusion Fine-tuning](https://arxiv.org/abs/2511.14113) 
 
-Ziyao Zeng, **Jingcheng Ni**, Ruyi Liu, Alex Wong 
+*Ziyao Zeng, **Jingcheng Ni**, Ruyi Liu, Alex Wong*
 </div>
 </div>
 
