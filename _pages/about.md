@@ -29,31 +29,39 @@ During the fall 2023 term, I had a wonderful experience at Duke University, wher
 ***Research Interests***: I aim to investigate 3D reconstruction, perception, and generation, with an interest in leveraging multimodal inputs to assist in vision tasks. I am also passionate about designing efficient visual systems that can enable embodied agents to better understand and interact with the physical world while addressing real-world challenges.
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 Join Brown University as a Master's Student in Computer Science with scholarship!
-- *2025.05*: &nbsp;🎉🎉 Join Sony R&D Center China in Beijing as a 3D Vision research intern!
-- *2025.05*: &nbsp;🎉🎉 Graduation from Duke Kunshan University/Duke University with Distinction! Grateful to everyone who has been by my side throughout the journey!
-- *2024.05*: &nbsp;🎉🎉 Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
-- *2023.09*: &nbsp;🎉🎉 Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
-- *2021.08*: &nbsp;🎉🎉 Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
+- *2025.09*: &nbsp; Join Brown University as a Master's Student in Computer Science with scholarship!
+- *2025.05*: &nbsp; Join Sony R&D Center China in Beijing as a 3D Vision research intern!
+- *2025.05*: &nbsp; Graduation from Duke Kunshan University/Duke University with Distinction! Grateful to everyone who has been by my side throughout the journey!
+- *2024.05*: &nbsp; Visiting student at [Yale Vision Lab](https://vision.cs.yale.edu/), advised by [Prof. Alex Wong](https://vision.cs.yale.edu/members/alex-wong.html).
+- *2023.09*: &nbsp; Research assistant at [Duke University I3T Lab](https://maria.gorlatova.com/), advised by [Prof. Maria Gorlatova](https://maria.gorlatova.com/bio/).
+- *2021.08*: &nbsp; Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
 
 # 📝 Publications 
-
+*equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pipeline_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [HOMER: Homography-Based Efficient Multi-view 3D Object Removal](https://arxiv.org/abs/2501.17636) 
 
-***Jingcheng Ni**, Weiguang Zhao, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang*
+**Jingcheng Ni***, Weiguang Zhao*, Daniel Wang, Ziyao Zeng, Chenyu You, Alex Wong, Kaizhu Huang
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PriorDiffusion: Leverage Language Prior in Diffusion Models
-for Monocular Depth Estimation.](http://arxiv.org/abs/2411.16750) 
+[Iris: Integrating Language into Diffusion-based Monocular Depth Estimation](http://arxiv.org/abs/2411.16750) 
 
-*Ziyao Zeng, **Jingcheng Ni**, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong* 
+Ziyao Zeng*, **Jingcheng Ni***, Daniel Wang, Patrick Rim, Younjoon Chung, Fengyu Yang, Byung-Woo Hong, Alex Wong 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pdiff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Coffee: Controllable Diffusion Fine-tuning](https://arxiv.org/abs/2511.14113) 
+
+Ziyao Zeng, **Jingcheng Ni**, Ruyi Liu, Alex Wong 
 </div>
 </div>
 
