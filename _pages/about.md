@@ -37,7 +37,7 @@ During the fall 2023 term, I had a wonderful experience at Duke University, wher
 - *2021.08*: &nbsp; Join Duke Kunshan University as an undergraduate with scholarship for outstanding student.
 
 # 📝 Publications 
-†equal contribution
+*†* equal contribution
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='../images/pipeline_00.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
