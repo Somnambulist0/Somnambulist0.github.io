@@ -2,7 +2,7 @@
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>Jingcheng Ni | Researcher</title>
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -42,9 +42,21 @@
         }
     </script>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100%;
+        }
+        
         body {
             background-color: theme('colors.theme.bg');
             color: theme('colors.theme.text');
+            margin: 0;
+            padding: 0;
         }
         
         /* 顶部导航栏玻璃效果 */
@@ -58,6 +70,7 @@
         .link-pro {
             color: theme('colors.theme.subtext');
             font-weight: 600;
+            word-break: break-word;
             /* text-decoration: underline;
             text-decoration-color: theme('colors.theme.border');
             text-underline-offset: 3px; */
@@ -89,7 +102,7 @@
 <body class="antialiased selection:bg-theme-primary/10 selection:text-theme-primary">
 
     <nav class="fixed w-full z-50 glass-nav top-0">
-        <div class="max-w-6xl mx-auto px-6 h-14 flex justify-between items-center">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex justify-between items-center">
             <a href="#" class="font-bold text-lg tracking-tight text-theme-text hover:text-theme-primary transition">
                 J.Ni
             </a>
@@ -102,13 +115,13 @@
         </div>
     </nav>
 
-    <div class="max-w-6xl mx-auto px-6 pt-32 pb-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-16 w-full">
         
         <section id="about" class="flex flex-col md:flex-row items-start gap-10 mb-20 border-b border-theme-border pb-12">
             
             <div class="shrink-0 flex flex-col gap-4 w-full md:w-auto items-center md:items-start">
-                <div class="w-60 md:w-60 aspect-[3/4] rounded-lg overflow-hidden shadow-md border border-theme-border bg-theme-surface relative">
-                    <img src="./images/person_3.jpg" class="w-full h-full object-cover transition duration-500">
+                <div class="w-full max-w-[240px] md:w-60 aspect-[3/4] rounded-lg overflow-hidden shadow-md border border-theme-border bg-theme-surface relative">
+                    <img src="./images/person_3.jpg" class="w-full h-full object-cover transition duration-500" style="max-width: 100%; height: auto;">
                 </div>
 
                 <div class="flex gap-5 items-center justify-center w-full px-1">
@@ -119,12 +132,12 @@
                 </div>
             </div>
             
-            <div class="flex-1">
-                <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-theme-text mb-6">
+            <div class="flex-1 min-w-0 w-full">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-theme-text mb-6 break-words">
                     Jingcheng Ni
                 </h1>
                 
-                <div class="space-y-4 text-base text-theme-text/80 leading-relaxed">
+                <div class="space-y-4 text-sm sm:text-base text-theme-text/80 leading-relaxed break-words">
                 </div>
             </div>
         </section>
@@ -176,8 +189,8 @@
 
     </div>
 
-    <footer class="border-t border-theme-border bg-theme-surface">
-        <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+    <footer class="border-t border-theme-border bg-theme-surface w-full">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4 w-full">
             <div class="text-xs text-theme-subtext font-mono">
                 © 2025 Jingcheng Ni. All rights reserved.
             </div>

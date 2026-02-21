@@ -125,12 +125,12 @@ function renderNews() {
             : "font-mono text-theme-subtext text-sm";
         
         return `
-            <div class="flex flex-col md:flex-row gap-3 md:items-center">
-                <div class="flex items-center gap-3 w-32 shrink-0">
+            <div class="flex flex-col md:flex-row gap-3 md:items-center w-full">
+                <div class="flex items-center gap-3 md:w-32 shrink-0">
                     <span class="${dateClass}">${item.date}</span>
-                    <span class="${item.categoryColor} text-[10px] font-bold px-1.5 py-0.5 rounded border">${item.category}</span>
+                    <span class="${item.categoryColor} text-[10px] font-bold px-1.5 py-0.5 rounded border whitespace-nowrap">${item.category}</span>
                 </div>
-                <div class="text-theme-text text-sm">${item.content}</div>
+                <div class="text-theme-text text-sm flex-1 min-w-0">${item.content}</div>
             </div>
         `;
     }).join('');
@@ -147,19 +147,19 @@ function renderResearch() {
         ).join('');
         
         return `
-            <div class="bg-white px-4 pt-2 pb-4 rounded-xl paper-card hover:bg-theme-surface/50">
-                <div class="flex flex-col gap-3">
-                    <div class="w-full flex items-center justify-center">
-                        <img src="${research.image}" class="max-w-2xl h-64 object-contain transition duration-500">
+            <div class="bg-white px-4 pt-2 pb-4 rounded-xl paper-card hover:bg-theme-surface/50 w-full overflow-hidden">
+                <div class="flex flex-col gap-3 w-full">
+                    <div class="w-full flex items-center justify-center overflow-hidden">
+                        <img src="${research.image}" class="w-full max-w-2xl h-auto max-h-64 object-contain transition duration-500" style="max-width: 100%; height: auto;">
                     </div>
-                    <div class="w-full">
-                        <h3 class="text-lg font-bold text-theme-text mb-2 leading-tight">
+                    <div class="w-full min-w-0">
+                        <h3 class="text-base sm:text-lg font-bold text-theme-text mb-2 leading-tight break-words">
                             <a href="${research.links.pdf || '#'}" class="hover:text-theme-primary transition">${research.title}</a>
                         </h3>
-                        <p class="text-theme-subtext text-sm mb-3 leading-relaxed">
+                        <p class="text-theme-subtext text-xs sm:text-sm mb-3 leading-relaxed break-words">
                             ${research.authors}
                         </p>
-                        <div class="flex items-center gap-4 mb-4">
+                        <div class="flex flex-wrap items-center gap-2 sm:gap-4 mb-4">
                             <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-theme-text text-white">${research.status}</span>
                             ${linksHTML}
                         </div>
@@ -186,9 +186,9 @@ function renderProjects() {
     
     projectContainer.innerHTML = CONFIG.projects.map(project => {
         return `
-            <div class="bg-white border border-theme-border rounded-xl overflow-hidden hover:border-theme-primary transition duration-300 group shadow-sm">
+            <div class="bg-white border border-theme-border rounded-xl overflow-hidden hover:border-theme-primary transition duration-300 group shadow-sm w-full">
                 <div class="h-48 bg-slate-900 overflow-hidden relative">
-                    <img src="${project.image}" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500">
+                    <img src="${project.image}" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="p-5">
                     <div class="flex justify-between items-center mb-2">
@@ -228,9 +228,9 @@ function renderEducation() {
                     : edu.startDate;
                 
                 return `
-                    <div class="flex items-start gap-4 text-sm text-theme-text">
-                        <span class="font-mono text-theme-subtext text-xs mt-0.5 shrink-0 w-32">${dateRange}</span>
-                        <div class="flex-1">
+                    <div class="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 text-sm text-theme-text w-full">
+                        <span class="font-mono text-theme-subtext text-xs mt-0.5 shrink-0 sm:w-32">${dateRange}</span>
+                        <div class="flex-1 min-w-0 break-words">
                             <span class="font-medium">${edu.degree}</span>
                             <span class="text-theme-subtext">, ${edu.school}</span>
                         </div>
