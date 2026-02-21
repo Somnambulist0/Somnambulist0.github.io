@@ -97,6 +97,34 @@
         details > summary::-webkit-details-marker { display: none; }
         details[open] summary ~ * { animation: sweep .2s ease-in-out; }
         @keyframes sweep { 0% {opacity: 0; transform: translateY(-5px)} 100% {opacity: 1; transform: translateY(0)} }
+        
+        /* Research 图片响应式修复 */
+        #Research {
+            max-width: 100%;
+            overflow: hidden;
+        }
+        #Research .paper-card {
+            max-width: 100%;
+            overflow: hidden;
+            width: 100%;
+        }
+        #Research .paper-card img {
+            max-width: 100% !important;
+            width: 100% !important;
+            height: auto !important;
+            object-fit: contain;
+            display: block;
+        }
+        #Research .paper-card > div {
+            max-width: 100%;
+            overflow: hidden;
+            width: 100%;
+        }
+        #Research .paper-card > div > div:first-child {
+            max-width: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-theme-primary/10 selection:text-theme-primary">
@@ -152,7 +180,7 @@
             </div>
         </section>
 
-        <section id="Research" class="mb-16">
+        <section id="Research" class="mb-16 w-full overflow-hidden">
             <div class="mb-6 border-b border-theme-border pb-2">
                 <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Research</h2>
             </div>
@@ -160,7 +188,7 @@
             <p class="text-theme-subtext text-sm mb-3 leading-relaxed">
                 * Equally Contribution
             </p>
-            <div class="space-y-6">
+            <div class="space-y-6 w-full">
                 <!-- 出版物内容将由 render.js 动态填充 -->
             </div>
         </section>

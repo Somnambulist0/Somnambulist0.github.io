@@ -147,12 +147,12 @@ function renderResearch() {
         ).join('');
         
         return `
-            <div class="bg-white px-4 pt-2 pb-4 rounded-xl paper-card hover:bg-theme-surface/50 w-full overflow-hidden">
-                <div class="flex flex-col gap-3 w-full">
-                    <div class="w-full flex items-center justify-center overflow-hidden">
-                        <img src="${research.image}" class="w-full max-w-2xl h-auto max-h-64 object-contain transition duration-500" style="max-width: 100%; height: auto;">
+            <div class="bg-white px-3 sm:px-4 pt-2 pb-4 rounded-xl paper-card hover:bg-theme-surface/50 w-full overflow-hidden" style="max-width: 100%; box-sizing: border-box;">
+                <div class="flex flex-col gap-3 w-full" style="max-width: 100%; box-sizing: border-box;">
+                    <div class="w-full flex items-center justify-center overflow-hidden" style="max-width: 100%; width: 100%; box-sizing: border-box;">
+                        <img src="${research.image}" class="w-full h-auto max-h-64 object-contain transition duration-500" style="max-width: 100% !important; width: 100% !important; height: auto !important; display: block; box-sizing: border-box;">
                     </div>
-                    <div class="w-full min-w-0">
+                    <div class="w-full min-w-0" style="max-width: 100%; box-sizing: border-box;">
                         <h3 class="text-base sm:text-lg font-bold text-theme-text mb-2 leading-tight break-words">
                             <a href="${research.links.pdf || '#'}" class="hover:text-theme-primary transition">${research.title}</a>
                         </h3>
