@@ -114,6 +114,21 @@ function renderContactLinks() {
     });
 }
 
+// 获取分类颜色（统一颜色映射）
+function getCategoryColor(category) {
+    const colorMap = {
+        'Research': 'bg-blue-50 text-blue-600 border-blue-100',
+        'School': 'bg-green-50 text-green-600 border-green-100',
+        'Work': 'bg-purple-50 text-purple-600 border-purple-100',
+        'Award': 'bg-yellow-50 text-yellow-600 border-yellow-100',
+        'Publication': 'bg-indigo-50 text-indigo-600 border-indigo-100',
+        'Conference': 'bg-pink-50 text-pink-600 border-pink-100',
+        'Workshop': 'bg-orange-50 text-orange-600 border-orange-100',
+    };
+    // 如果找到映射，使用映射的颜色；否则使用默认灰色
+    return colorMap[category] || 'bg-gray-100 text-gray-600 border-gray-200';
+}
+
 // 渲染新闻动态
 function renderNews() {
     const newsContainer = document.querySelector('#news .space-y-4');
@@ -124,11 +139,14 @@ function renderNews() {
             ? "font-mono text-theme-primary font-bold text-sm"
             : "font-mono text-theme-subtext text-sm";
         
+        // 使用统一的颜色映射，而不是 item.categoryColor
+        const categoryColor = getCategoryColor(item.category);
+        
         return `
             <div class="flex flex-col md:flex-row gap-3 md:items-center w-full">
                 <div class="flex items-center gap-3 md:w-32 shrink-0">
                     <span class="${dateClass}">${item.date}</span>
-                    <span class="${item.categoryColor} text-[10px] font-bold px-1.5 py-0.5 rounded border whitespace-nowrap">${item.category}</span>
+                    <span class="${categoryColor} text-[10px] font-bold px-1.5 py-0.5 rounded border whitespace-nowrap">${item.category}</span>
                 </div>
                 <div class="text-theme-text text-sm flex-1 min-w-0">${item.content}</div>
             </div>
@@ -188,7 +206,7 @@ function renderProjects() {
         return `
             <div class="bg-white border border-theme-border rounded-xl overflow-hidden hover:border-theme-primary transition duration-300 group shadow-sm w-full">
                 <div class="h-48 bg-slate-900 overflow-hidden relative">
-                    <img src="${project.image}" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" style="max-width: 100%; height: auto;">
+                    <img src="${project.image}" class="w-full h-full object-cover opacity-90" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="p-5">
                     <div class="flex justify-between items-center mb-2">

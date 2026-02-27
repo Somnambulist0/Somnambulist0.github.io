@@ -7,7 +7,7 @@ const CONFIG = {
         bio: [
             "I am a Master's student in Computer Science at <a href='https://www.brown.edu/' class='link-pro'>Brown University</a>.",
             "Previously, I completed my undergraduate studies with distinction in Computer Science at <a href='https://undergraduate.bulletins.duke.edu/allprograms/dukekunshanprogram' class='link-pro'>Duke Kunshan University</a> and <a href='https://www.duke.edu/' class='link-pro'>Duke University</a> (2021–2025), where I had the privilege of being advised by Prof. Kaizhu Huang.",
-            "This past summer, I had the pleasure of working at <a href='https://www.sony.com/en_us/SonyInfo/research/' class='link-pro'>Sony Research</a> on 3D human generation.",
+            "During 2025 Summer, I had the pleasure of working at <a href='https://www.sony.com/en_us/SonyInfo/research/' class='link-pro'>Sony Research</a> on 3D human generation.",
             "In the summer of 2024, I spent an enriching time at <a href='https://vision.cs.yale.edu/' class='link-pro'>Yale Vision Lab</a> under the guidance of Prof. Alex Wong.",
             "During the fall 2023 term, I had a wonderful experience at Duke University, where I worked as a research assistant at <a href='https://maria.gorlatova.com/' class='link-pro'>Duke University I3T Lab</a>, under the supervision of Prof. Maria Gorlatova."
         ],
