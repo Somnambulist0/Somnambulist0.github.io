@@ -33,11 +33,25 @@ const CONFIG = {
     // 新闻动态
     news: [
         {
+            date: "2026.05",
+            category: "Work",
+            categoryColor: "bg-gray-100 text-gray-600 border-gray-200",
+            content: "Excited to join Waymo as a Machine Learning Engineer Intern in Summer 2026. See you in Mountain View!",
+            highlight: true
+        },
+        {
+            date: "2026.04",
+            category: "Research",
+            categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
+            content: "Our paper <strong>VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation</strong> is accepted by ICML 2026!",
+            // highlight: true
+        },
+        {
             date: "2026.02",
             category: "Research",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
             content: "Our paper <strong>Iris: Integrating Language into Diffusion-based Monocular Depth Estimation</strong> is accepted by CVPR 2026!",
-            highlight: true
+            // highlight: true
         },
         {
             date: "2025.09",
@@ -75,10 +89,22 @@ const CONFIG = {
             status: "CVPR 2026",
             links: {
                 pdf: "https://arxiv.org/abs/2411.16750",
-                // code: "#"
+                code: "https://github.com/Adonis-galaxy/iris",
                 project: "https://adonis-galaxy.github.io/Iris-website/"
             },
             abstract: "Traditional monocular depth estimation suffers from inherent ambiguity and visual nuisances. We demonstrate that language can enhance monocular depth estimation by providing an additional condition (rather than images alone) aligned with plausible 3D scenes, thereby reducing the solution space for depth estimation. This conditional distribution is learned during the text-to-image pre-training of diffusion models. To generate images under various viewpoints and layouts that precisely reflect textual descriptions, the model implicitly models object sizes, shapes, and scales, their spatial relationships, and the overall scene structure. In this paper, Iris, we investigate the benefits of our strategy to integrate text descriptions into training and inference of diffusion-based depth estimation models. We experiment with three different diffusion-based monocular depth estimators (Marigold, Lotus, and E2E-FT) and their variants. By training on HyperSim and Virtual KITTI, and evaluating on NYUv2, KITTI, ETH3D, ScanNet, and DIODE, we find that our strategy improves the overall monocular depth estimation accuracy, especially in small areas. It also improves the model's depth perception of specific regions described in the text. We find that by providing more details in the text, the depth prediction can be iteratively refined. Simultaneously, we find that language can act as a constraint to accelerate the convergence of both training and the inference diffusion trajectory. Code and generated text data will be released upon acceptance."
+        },
+        {
+            title: "VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation",
+            authors: "Hongyang Du*, Junjie Ye*, Xiaoyan Cong*, Runhao Li, Jingcheng Ni, Aman Agarwal, Zeqi Zhou, Zekun Li, Randall Balestriero, Yue Wang",
+            image: "./images/videogpa.png",
+            status: "ICML 2026",
+            links: {
+                pdf: "https://arxiv.org/abs/2601.23286",
+                code: "https://github.com/Hongyang-Du/VideoGPA",
+                project: "https://hongyang-du.github.io/VideoGPA-Website/"
+            },
+            abstract: "While recent video diffusion models (VDMs) produce visually impressive results, they fundamentally struggle to maintain 3D structural consistency, often resulting in object deformation or spatial drift. We hypothesize that these failures arise because standard denoising objectives lack explicit incentives for geometric coherence. To address this, we introduce VideoGPA (Video Geometric Preference Alignment), a data-efficient self-supervised framework that leverages a geometry foundation model to automatically derive dense preference signals that guide VDMs via Direct Preference Optimization (DPO). This approach effectively steers the generative distribution toward inherent 3D consistency without requiring human annotations. VideoGPA significantly enhances temporal stability, physical plausibility, and motion coherence using minimal preference pairs, consistently outperforming state-of-the-art baselines in extensive experiments."
         },
         {
             title: "HOMER: Homography-Based Efficient Multi-view 3D Object Removal",
@@ -106,22 +132,22 @@ const CONFIG = {
     ],
 
     // 项目
-    projects: [
-        {
-            name: "Gulu-Verse",
-            description: "Personalized recommendation website designed to bring meaning to life.",
-            image: "images/gulu.jpg",
-            tags: "Web / Tool",
-            link: "https://guluverse.com/"
-        },
-        {
-            name: "Speech Recognition",
-            description: "Manual implementation of speech recognition algorithms (CS304).",
-            image: "images/speech.jpg",
-            tags: "Pytorch / Audio",
-            link: "https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation"
-        }
-    ],
+    // projects: [
+    //     {
+    //         name: "Gulu-Verse",
+    //         description: "Personalized recommendation website designed to bring meaning to life.",
+    //         image: "images/gulu.jpg",
+    //         tags: "Web / Tool",
+    //         link: "https://guluverse.com/"
+    //     },
+    //     {
+    //         name: "Speech Recognition",
+    //         description: "Manual implementation of speech recognition algorithms (CS304).",
+    //         image: "images/speech.jpg",
+    //         tags: "Pytorch / Audio",
+    //         link: "https://github.com/Somnambulist0/Speech-Recognition-Manual-Implementation"
+    //     }
+    // ],
 
     // 教育背景
     education: [
