@@ -80,6 +80,17 @@
             background-color: #EEF2FF;
         }
 
+        /* 仅 News 区域：更亮的淡色系链接 */
+        #news .link-pro {
+            color: #0284C7;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        #news .link-pro:hover {
+            color: #015d8b;
+            background-color: #E0F2FE;
+        }
+
         /* 卡片交互 */
         .paper-card {
             border: 1px solid theme('colors.theme.border');
@@ -136,7 +147,7 @@
                 <a href="#about" class="hover:text-theme-primary transition whitespace-nowrap">About</a>
                 <a href="#news" class="hover:text-theme-primary transition whitespace-nowrap">News</a>
                 <a href="#Research" class="hover:text-theme-primary transition whitespace-nowrap">Research</a>
-                <a href="#projects" class="hover:text-theme-primary transition whitespace-nowrap">Projects</a>
+                <!-- <a href="#projects" class="hover:text-theme-primary transition whitespace-nowrap">Projects</a> -->
             </div>
         </div>
     </nav>
@@ -191,7 +202,7 @@
             </div>
         </section>
 
-        <section id="projects" class="mb-16">
+        <!-- <section id="projects" class="mb-16">
             <div class="mb-6 border-b border-theme-border pb-2">
                 <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Projects</h2>
             </div>
@@ -199,7 +210,7 @@
             <div class="grid md:grid-cols-2 gap-6">
                 <!-- 项目内容将由 render.js 动态填充 -->
             </div>
-        </section>
+        </section> -->
 
         <section class="mb-12">
             <div class="mb-6 border-b border-theme-border pb-2 flex items-center gap-2">

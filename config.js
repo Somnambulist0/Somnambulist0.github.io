@@ -36,21 +36,21 @@ const CONFIG = {
             date: "2026.05",
             category: "Work",
             categoryColor: "bg-gray-100 text-gray-600 border-gray-200",
-            content: "Excited to join Waymo as a Machine Learning Engineer Intern in Summer 2026. See you in Mountain View!",
+            content: "Excited to join <strong>Waymo</strong> as a Machine Learning Engineer Intern in Summer 2026. See you in Mountain View!",
             highlight: true
         },
         {
             date: "2026.04",
             category: "Research",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
-            content: "Our paper <strong>VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation</strong> is accepted by ICML 2026!",
+            content: "Our paper <a href='https://hongyang-du.github.io/VideoGPA-Website/' class='link-pro'>VideoGPA</a> is accepted by ICML 2026!",
             // highlight: true
         },
         {
             date: "2026.02",
             category: "Research",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
-            content: "Our paper <strong>Iris: Integrating Language into Diffusion-based Monocular Depth Estimation</strong> is accepted by CVPR 2026!",
+            content: "Our paper <a href='https://adonis-galaxy.github.io/Iris-website/' class='link-pro'>Iris</a> is accepted by CVPR 2026!",
             // highlight: true
         },
         {
@@ -64,7 +64,7 @@ const CONFIG = {
             date: "2025.05",
             category: "Work",
             categoryColor: "bg-gray-100 text-gray-600 border-gray-200",
-            content: "Joined <strong>Sony R&D Center</strong> in Beijing (3D Vision Intern)."
+            content: "Joined <strong>Sony R&D Center</strong> as a 3D Vision Intern)."
         },
         {
             date: "2025.05",
@@ -76,7 +76,7 @@ const CONFIG = {
             date: "2024.05",
             category: "Research",
             categoryColor: "bg-gray-100 text-gray-600 border-gray-200",
-            content: "Visiting student at <a href='#' class='link-pro'>Yale Vision Lab</a>."
+            content: "Visiting student at <a href='https://vision.cs.yale.edu/' class='link-pro'>Yale Vision Lab</a>."
         }
     ],
 
@@ -96,7 +96,7 @@ const CONFIG = {
         },
         {
             title: "VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation",
-            authors: "Hongyang Du*, Junjie Ye*, Xiaoyan Cong*, Runhao Li, Jingcheng Ni, Aman Agarwal, Zeqi Zhou, Zekun Li, Randall Balestriero, Yue Wang",
+            authors: "Hongyang Du*, Junjie Ye*, Xiaoyan Cong*, Runhao Li, <strong>Jingcheng Ni</strong>, Aman Agarwal, Zeqi Zhou, Zekun Li, Randall Balestriero, Yue Wang",
             image: "./images/videogpa.png",
             status: "ICML 2026",
             links: {
