@@ -13,6 +13,7 @@ function renderPage() {
     renderNavigation();
     renderContactLinks();
     renderNews();
+    renderWorkExperience();
     renderResearch();
     renderProjects();
     renderEducation();
@@ -23,10 +24,19 @@ function renderPage() {
 // 渲染个人信息
 function renderPersonalInfo() {
     const personal = CONFIG.personal;
+    const interests = personal.researchInterests
+        .split(/(?<=\.)\s+/)
+        .filter(Boolean)
+        .join('<br>');
     
     // 更新标题
     const titleEl = document.querySelector('#about h1');
-    if (titleEl) titleEl.textContent = personal.name;
+    if (titleEl) {
+        const chineseNameHTML = personal.chineseName
+            ? ` <span class="chinese-name" lang="zh-CN">${personal.chineseName}</span>`
+            : '';
+        titleEl.innerHTML = `${personal.name}${chineseNameHTML}`;
+    }
     
     // 更新头像
     const avatarEl = document.querySelector('#about img[src*="placeholder"]');
@@ -39,10 +49,10 @@ function renderPersonalInfo() {
         
         // 添加研究兴趣
         const interestsHTML = `
-            <div class="mt-6 p-5 bg-theme-surface rounded-lg border-l-4 border-theme-primary">
-                <h3 class="font-bold text-theme-text mb-1 text-sm">Research Interests</h3>
-                <p class="text-theme-subtext italic text-sm">
-                    ${personal.researchInterests}
+            <div class="mt-6 p-5 bg-[#F7F4FC] rounded-lg border-l-4 border-[#B8A7D9]">
+                <h3 class="font-bold text-theme-text mb-1 text-sm">Interests</h3>
+                <p class="text-[#7A63A8] font-semibold text-sm">
+                    ${interests}
                 </p>
             </div>
         `;
@@ -52,10 +62,10 @@ function renderPersonalInfo() {
 
 // 渲染导航菜单
 function renderNavigation() {
-    const navEl = document.querySelector('nav .hidden.md\\:flex');
+    const navEl = document.querySelector('#nav-links') || document.querySelector('nav .hidden.md\\:flex');
     if (navEl && CONFIG.navigation) {
         navEl.innerHTML = CONFIG.navigation.map(item => 
-            `<a href="${item.href}" class="hover:text-theme-primary transition">${item.label}</a>`
+            `<a href="${item.href}" class="hover:text-theme-primary transition whitespace-nowrap">${item.label}</a>`
         ).join('');
     }
     
@@ -129,6 +139,39 @@ function getCategoryColor(category) {
     return colorMap[category] || 'bg-gray-100 text-gray-600 border-gray-200';
 }
 
+// 渲染工作经历
+function renderWorkExperience() {
+    const workContainer = document.querySelector('#work-experience .work-list');
+    if (!workContainer || !CONFIG.workExperience) return;
+
+    workContainer.innerHTML = CONFIG.workExperience.map(work => {
+        const date = work.displayDate || (work.endDate ? `${work.startDate} - ${work.endDate}` : work.startDate);
+        const imageClass = work.logoText
+            ? 'max-w-[8rem] sm:max-w-[9rem] max-h-16'
+            : 'max-w-[8rem] sm:max-w-[9rem] max-h-14';
+        const companyLink = work.link
+            ? `<a href="${work.link}" class="text-theme-primary hover:underline">${work.company}</a>`
+            : work.company;
+        const meta = date;
+
+        return `
+            <div class="grid grid-cols-1 sm:grid-cols-[12rem_minmax(0,1fr)] gap-4 sm:gap-6 items-center">
+                <a href="${work.link || '#'}" class="group flex flex-col items-center justify-center gap-2 sm:min-h-28">
+                    <img src="${work.logo}" alt="${work.company} logo" class="${imageClass} object-contain transition duration-200 group-hover:scale-[1.02]">
+                    ${work.logoText ? `<div class="text-xl sm:text-2xl font-bold tracking-[0.32em] text-gray-400 leading-none pl-[0.32em]">${work.logoText}</div>` : ''}
+                </a>
+                <div class="min-w-0 text-center sm:text-left">
+                    <h3 class="text-sm sm:text-base font-bold text-theme-text leading-snug">
+                        ${work.role} at ${companyLink}
+                    </h3>
+                    ${meta ? `<p class="mt-2 text-xs sm:text-sm text-theme-subtext">${meta}</p>` : ''}
+                    ${work.description ? `<p class="mt-3 text-sm text-theme-text/80 leading-relaxed">${work.description}</p>` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
 // 渲染新闻动态
 function renderNews() {
     const newsContainer = document.querySelector('#news .space-y-4');
@@ -163,6 +206,10 @@ function renderResearch() {
         const linksHTML = Object.entries(research.links).map(([key, url]) => 
             `<a href="${url}" class="text-xs font-bold text-theme-subtext hover:text-theme-text transition">${key.toUpperCase()}</a>`
         ).join('');
+        const statusTags = [research.status, ...(research.extraStatuses || [])]
+            .filter(Boolean)
+            .map(status => `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-theme-text text-white">${status}</span>`)
+            .join('');
         
         return `
             <div class="bg-white px-3 sm:px-4 pt-2 pb-4 rounded-xl paper-card hover:bg-theme-surface/50 w-full overflow-hidden" style="max-width: 100%; box-sizing: border-box;">
@@ -178,7 +225,7 @@ function renderResearch() {
                             ${research.authors}
                         </p>
                         <div class="flex flex-wrap items-center gap-2 sm:gap-4 mb-4">
-                            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-theme-text text-white">${research.status}</span>
+                            ${statusTags}
                             ${linksHTML}
                         </div>
                         <details class="group/abstract">
@@ -246,8 +293,8 @@ function renderEducation() {
                     : edu.startDate;
                 
                 return `
-                    <div class="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 text-sm text-theme-text w-full">
-                        <span class="font-mono text-theme-subtext text-xs mt-0.5 shrink-0 sm:w-32">${dateRange}</span>
+                    <div class="grid grid-cols-1 sm:grid-cols-[13rem_minmax(0,1fr)] gap-1 sm:gap-4 text-sm text-theme-text w-full">
+                        <span class="font-mono text-theme-subtext text-xs mt-0.5 whitespace-nowrap">${dateRange}</span>
                         <div class="flex-1 min-w-0 break-words">
                             <span class="font-medium">${edu.degree}</span>
                             <span class="text-theme-subtext">, ${edu.school}</span>
@@ -264,9 +311,14 @@ function renderFooter() {
     const footer = CONFIG.footer;
     
     // 更新版权信息
-    const copyrightEl = document.querySelector('footer .text-xs.text-theme-subtext.font-mono');
+    const copyrightEl = document.querySelector('footer .copyright-text') || document.querySelector('footer .text-xs.text-theme-subtext.font-mono');
     if (copyrightEl) {
         copyrightEl.textContent = footer.copyright;
+    }
+
+    const lastUpdatedEl = document.querySelector('footer .last-updated');
+    if (lastUpdatedEl && footer.lastUpdated) {
+        lastUpdatedEl.textContent = footer.lastUpdated;
     }
     
     // 更新页脚链接（只显示配置中存在的）
@@ -308,4 +360,3 @@ if (document.readyState === 'loading') {
 } else {
     renderPage();
 }
-

@@ -2,16 +2,17 @@ const CONFIG = {
     // 个人信息
     personal: {
         name: "Jingcheng Ni",
+        chineseName: "倪敬程",
         shortName: "J.Ni",
         title: "Researcher",
         bio: [
             "I am a Master's student in Computer Science at <a href='https://www.brown.edu/' class='link-pro'>Brown University</a>.",
-            "Previously, I completed my undergraduate studies with distinction in Computer Science at <a href='https://undergraduate.bulletins.duke.edu/allprograms/dukekunshanprogram' class='link-pro'>Duke Kunshan University</a> and <a href='https://www.duke.edu/' class='link-pro'>Duke University</a> (2021–2025), where I had the privilege of being advised by Prof. Kaizhu Huang.",
-            "During 2025 Summer, I had the pleasure of working at <a href='https://www.sony.com/en_us/SonyInfo/research/' class='link-pro'>Sony Research</a> on 3D human generation.",
+            "During this summer (2026), I am interning at <a href='https://waymo.com/' class='link-pro'>Waymo</a> as a Machine Learning Engineer on the Perception team, working on world models for autonomous driving.",
+            "Previously, I completed my undergraduate studies with distinction in Computer Science at <a href='https://undergraduate.bulletins.duke.edu/allprograms/dukekunshanprogram' class='link-pro'>Duke Kunshan University</a> and <a href='https://www.duke.edu/' class='link-pro'>Duke University</a> (2021-2025), where I had the privilege of being advised by Prof. Kaizhu Huang.",
+            "During 2025 Summer, I had the pleasure of working at <a href='https://ai.sony/' class='link-pro'>Sony AI</a> on 3D human generation.",
             "In the summer of 2024, I spent an enriching time at <a href='https://vision.cs.yale.edu/' class='link-pro'>Yale Vision Lab</a> under the guidance of Prof. Alex Wong.",
-            "During the fall 2023 term, I had a wonderful experience at Duke University, where I worked as a research assistant at <a href='https://maria.gorlatova.com/' class='link-pro'>Duke University I3T Lab</a>, under the supervision of Prof. Maria Gorlatova."
         ],
-        researchInterests: "I aim to investigate 3D reconstruction, perception, and generation, with an interest in leveraging multimodal inputs to assist in vision tasks. I am also passionate about designing efficient visual systems that can enable embodied agents to better understand and interact with the physical world while addressing real-world challenges.",
+        researchInterests: "I work on multimodal representations for spatial intelligence. I build models that perceive, reconstruct, and generate the physical world from multimodal inputs. My long-term goal is to enable embodied agents, such as vehicles and robots, to better understand and interact with real world environments.",
     },
 
     // 联系方式
@@ -26,8 +27,8 @@ const CONFIG = {
     navigation: [
         { label: "About", href: "#about" },
         { label: "News", href: "#news" },
-        { label: "Research", href: "#Research" },
-        { label: "Projects", href: "#projects" }
+        { label: "Work Experience", href: "#work-experience" },
+        { label: "Selected Research", href: "#Research" }
     ],
 
     // 新闻动态
@@ -39,32 +40,39 @@ const CONFIG = {
             content: "Excited to join <strong>Waymo</strong> as a Machine Learning Engineer Intern in Summer 2026. See you in Mountain View!",
             highlight: true
         },
+            {
+            date: "2026.05",
+            category: "Research",
+            categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
+            content: "Paper <a href='https://hongyang-du.github.io/VideoGPA-Website/' class='link-pro'>VideoGPA</a> is selected as <em>Oral</em> at CVPR 2026 Workshop!",
+            // highlight: true
+        },
         {
             date: "2026.04",
             category: "Research",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
-            content: "Our paper <a href='https://hongyang-du.github.io/VideoGPA-Website/' class='link-pro'>VideoGPA</a> is accepted by ICML 2026!",
+            content: "Paper <a href='https://hongyang-du.github.io/VideoGPA-Website/' class='link-pro'>VideoGPA</a> is accepted by ICML 2026!",
             // highlight: true
         },
         {
             date: "2026.02",
             category: "Research",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
-            content: "Our paper <a href='https://adonis-galaxy.github.io/Iris-website/' class='link-pro'>Iris</a> is accepted by CVPR 2026!",
+            content: "Paper <a href='https://adonis-galaxy.github.io/Iris-website/' class='link-pro'>Iris</a> is accepted by CVPR 2026!",
             // highlight: true
         },
         {
             date: "2025.09",
             category: "School",
             categoryColor: "bg-blue-50 text-blue-600 border-blue-100",
-            content: "Joined <strong>Brown University</strong> as a Master's Student (Scholarship).",
+            content: "Joined <strong>Brown University</strong> as a Master's Student with Scholarship.",
             // highlight: true
         },
         {
             date: "2025.05",
             category: "Work",
             categoryColor: "bg-gray-100 text-gray-600 border-gray-200",
-            content: "Joined <strong>Sony R&D Center</strong> as a 3D Vision Intern)."
+            content: "Joined <strong>Sony R&D Center</strong> as a Machine Learning Engineer Intern."
         },
         {
             date: "2025.05",
@@ -99,6 +107,7 @@ const CONFIG = {
             authors: "Hongyang Du*, Junjie Ye*, Xiaoyan Cong*, Runhao Li, <strong>Jingcheng Ni</strong>, Aman Agarwal, Zeqi Zhou, Zekun Li, Randall Balestriero, Yue Wang",
             image: "./images/videogpa.png",
             status: "ICML 2026",
+            extraStatuses: ["CVPRWS 2026 Oral"],
             links: {
                 pdf: "https://arxiv.org/abs/2601.23286",
                 code: "https://github.com/Hongyang-Du/VideoGPA",
@@ -149,6 +158,35 @@ const CONFIG = {
     //     }
     // ],
 
+    // 工作经历
+    workExperience: [
+        {
+            company: "Waymo",
+            role: "Machine Learning Engineer Intern",
+            team: "Perception",
+            location: "Mountain View, CA",
+            startDate: "2026.05",
+            endDate: "2026.08",
+            displayDate: "2026 Summer",
+            logo: "./images/logo-waymo.png",
+            logoText: "WAYMO",
+            link: "https://waymo.com/",
+            description: " Working on perception world model for cccupancy forecasting."
+        },
+        {
+            company: "Sony AI",
+            role: "Machine Learning Engineer Intern",
+            team: "Research",
+            location: "Tokyo, Japan",
+            startDate: "2025.05",
+            endDate: "2025.08",
+            displayDate: "2025 Summer",
+            logo: "./images/logo-sony-ai.svg",
+            link: "https://ai.sony/",
+            description: "Worked on 3D human generation from a single image."
+        }
+    ],
+
     // 教育背景
     education: [
         {
@@ -162,13 +200,7 @@ const CONFIG = {
             startDate: "2021.08",
             endDate: "2025.05",
             degree: "BS in Computer Science",
-            school: "Duke University"
-        },
-        {
-            startDate: "2021.08",
-            endDate: "2025.05",
-            degree: "BS in Computer Science",
-            school: "Duke Kunshan University"
+            school: "Duke University, Duke Kunshan University"
         },
         {
             startDate: "2024.05",
@@ -180,7 +212,7 @@ const CONFIG = {
 
     // 页脚
     footer: {
-        copyright: "© 2026 Jingcheng Ni. All rights reserved."
+        copyright: "© 2026 Jingcheng Ni. All rights reserved.",
+        lastUpdated: "Last updated May 2026"
     }
 };
-

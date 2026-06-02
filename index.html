@@ -40,6 +40,12 @@
         }
     </script>
     <style>
+        @font-face {
+            font-family: "STXingkaiWeb";
+            src: url("./images/stxingkai-nijingcheng.woff") format("woff");
+            font-display: swap;
+        }
+
         * {
             box-sizing: border-box;
         }
@@ -78,6 +84,13 @@
             color: theme('colors.theme.primary');
             text-decoration-color: theme('colors.theme.primary');
             background-color: #EEF2FF;
+        }
+
+        .chinese-name {
+            font-family: "STXingkaiWeb", "STXingkai", "华文行楷", cursive;
+            font-size: 0.82em;
+            font-weight: 400;
+            letter-spacing: 0;
         }
 
         /* 仅 News 区域：更亮的淡色系链接 */
@@ -143,18 +156,19 @@
             <a href="#" class="font-bold text-base sm:text-lg tracking-tight text-theme-text hover:text-theme-primary transition">
                 J.Ni
             </a>
-            <div class="flex space-x-4 sm:space-x-6 md:space-x-8 text-xs sm:text-sm font-medium text-theme-subtext">
+            <div id="nav-links" class="flex space-x-3 sm:space-x-6 md:space-x-8 text-[11px] sm:text-sm font-medium text-theme-subtext">
                 <a href="#about" class="hover:text-theme-primary transition whitespace-nowrap">About</a>
                 <a href="#news" class="hover:text-theme-primary transition whitespace-nowrap">News</a>
-                <a href="#Research" class="hover:text-theme-primary transition whitespace-nowrap">Research</a>
+                <a href="#work-experience" class="hover:text-theme-primary transition whitespace-nowrap">Work Experience</a>
+                <a href="#Research" class="hover:text-theme-primary transition whitespace-nowrap">Selected Research</a>
                 <!-- <a href="#projects" class="hover:text-theme-primary transition whitespace-nowrap">Projects</a> -->
             </div>
         </div>
     </nav>
 
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-16 w-full">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-10 w-full">
         
-        <section id="about" class="flex flex-col md:flex-row items-start gap-10 mb-20 border-b border-theme-border pb-12">
+        <section id="about" class="flex flex-col md:flex-row items-start gap-10 mb-12 pb-4">
             
             <div class="shrink-0 flex flex-col gap-4 w-full md:w-auto items-center md:items-start">
                 <div class="w-full max-w-[240px] md:w-60 aspect-[3/4] rounded-lg overflow-hidden shadow-md border border-theme-border bg-theme-surface relative">
@@ -189,9 +203,18 @@
             </div>
         </section>
 
+        <section id="work-experience" class="mb-16">
+            <div class="mb-6 border-b border-theme-border pb-2">
+                <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Work Experience</h2>
+            </div>
+            <div class="work-list space-y-8">
+                <!-- 工作经历内容将由 render.js 动态填充 -->
+            </div>
+        </section>
+
         <section id="Research" class="mb-16 w-full overflow-hidden">
             <div class="mb-6 border-b border-theme-border pb-2">
-                <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Research</h2>
+                <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Selected Research</h2>
             </div>
             <!-- add statement -->
             <p class="text-theme-subtext text-sm mb-3 leading-relaxed">
@@ -201,16 +224,6 @@
                 <!-- 出版物内容将由 render.js 动态填充 -->
             </div>
         </section>
-
-        <!-- <section id="projects" class="mb-16">
-            <div class="mb-6 border-b border-theme-border pb-2">
-                <h2 class="text-sm font-bold tracking-widest uppercase text-theme-subtext">Projects</h2>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6">
-                <!-- 项目内容将由 render.js 动态填充 -->
-            </div>
-        </section> -->
 
         <section class="mb-12">
             <div class="mb-6 border-b border-theme-border pb-2 flex items-center gap-2">
@@ -227,14 +240,12 @@
     </div>
 
     <footer class="border-t border-theme-border bg-theme-surface w-full">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4 w-full">
-            <div class="text-xs text-theme-subtext font-mono">
-                © 2025 Jingcheng Ni. All rights reserved.
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 w-full">
+            <div class="text-xs text-theme-subtext font-mono text-center md:text-left leading-relaxed">
+                <div class="copyright-text">© 2025 Jingcheng Ni. All rights reserved.</div>
             </div>
-            <div class="flex gap-6">
-                <a href="mailto:jingcheng_ni@brown.edu" class="text-theme-subtext hover:text-theme-primary text-xs font-bold uppercase">Email</a>
-                <a href="https://github.com/" class="text-theme-subtext hover:text-theme-primary text-xs font-bold uppercase">GitHub</a>
-                <a href="#" class="text-theme-subtext hover:text-theme-primary text-xs font-bold uppercase">LinkedIn</a>
+            <div class="last-updated text-xs text-theme-subtext font-mono text-center md:text-right">
+                Last updated May 2026
             </div>
         </div>
     </footer>
